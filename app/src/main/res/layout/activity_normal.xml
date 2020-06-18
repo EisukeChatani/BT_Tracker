@@ -7,9 +7,9 @@
     android:background="#93E32CF4"
     tools:context=".NormalActivity">
 
-    
+
     <TextView
-        android:id="@+id/NormalTextView1"
+        android:id="@+id/normalTitle"
         android:layout_width="414dp"
         android:layout_height="335dp"
         android:text="@string/normal_human_body_temperature_is_between_36_0_and_37_5"
