@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#93E32CF4"
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/titlebackground"
         android:layout_width="0dp"
         android:layout_height="195dp"
-        android:background="#398079"
+        android:background="#B1ED1C1C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -22,7 +23,7 @@
         android:id="@+id/MainTitle"
         android:layout_width="193dp"
         android:layout_height="80dp"
-        android:text="BT Tracker"
+        android:text="@string/bt_tracker"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FCFBFD"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,11 +40,12 @@
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="@+id/titlebackground"
         app:layout_constraintStart_toStartOf="@+id/titlebackground"
         app:srcCompat="@android:drawable/btn_star" />
 
-    
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -70,14 +72,14 @@
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToLogActivity"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/MainLine1"
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/MainButton2"
@@ -88,14 +90,14 @@
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Chack Noemal Range"
+            android:text="@string/chack_noemal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/mainLine2"
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/MainButton3"
@@ -106,14 +108,14 @@
             android:onClick="goToMechanismActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/mainLine3"
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/MainButton4"
@@ -124,7 +126,7 @@
             android:onClick="openHandlingFeverWebsite"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Handking Fever"
+            android:text="@string/handking_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/background_light" />
     </LinearLayout>

@@ -5,32 +5,34 @@
     android:id="@+id/MechanismLink1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#93E32CF4"
     tools:context=".MechanismActivity">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Useful Links about Fever"
+        android:layout_width="381dp"
+        android:layout_height="52dp"
+        android:shadowColor="#EA0505"
+        android:text="@string/useful_links_about_fever"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFC107"
-        android:text="Why do you have fever?"
-        android:textColor="#FFFFFF"
         android:onClick="goToLink1"
+        android:text="@string/why_do_you_have_fever"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.275" />
+        app:layout_constraintVertical_bias="0.42000002" />
 </androidx.constraintlayout.widget.ConstraintLayout>

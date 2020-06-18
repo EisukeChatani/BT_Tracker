@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">BT Tracker</string>
     <string name="normal_human_body_temperature_is_between_36_0_and_37_5">Normal human body temperature is between 36.0 and 37.5</string>
+    <string name="log_body_temperature">Log Body Temperature</string>
+    <string name="bt_tracker">BT Tracker</string>
+    <string name="useful_links_about_fever">Useful Links about Fever</string>
+    <string name="why_do_you_have_fever">Why do you have fever?</string>
+    <string name="handking_fever">Handking Fever</string>
+    <string name="mechanism_of_fever">Mechanism of Fever</string>
+    <string name="chack_noemal_range">Chack Noemal Range</string>
 </resources>
