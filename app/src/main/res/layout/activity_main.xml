@@ -48,8 +48,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="282dp"
+        android:layout_width="406dp"
+        android:layout_height="438dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp"
@@ -70,64 +70,64 @@
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#8A640096"
             android:onClick="goToLogActivity"
             android:text="@string/log_body_temperature"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/MainLine1"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="20dp" />
 
         <TextView
             android:id="@+id/MainButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#8A640096"
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/chack_noemal_range"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/mainLine2"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="20dp" />
 
         <TextView
             android:id="@+id/MainButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#8A640096"
             android:onClick="goToMechanismActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/mechanism_of_fever"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/background_light" />
 
         <View
             android:id="@+id/mainLine3"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="20dp" />
 
         <TextView
             android:id="@+id/MainButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#8A640096"
             android:onClick="openHandlingFeverWebsite"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/handking_fever"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/background_light" />
     </LinearLayout>
 
