@@ -33,6 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.205" />
 
+
     <ImageView
         android:id="@+id/titleImage"
         android:layout_width="79dp"
@@ -40,11 +41,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="@+id/titlebackground"
         app:layout_constraintStart_toStartOf="@+id/titlebackground"
         app:srcCompat="@android:drawable/btn_star" />
-
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -89,6 +89,7 @@
             android:background="#8A640096"
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:text="@string/chack_noemal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -107,6 +108,7 @@
             android:background="#8A640096"
             android:onClick="goToMechanismActivity"
             android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -125,11 +127,27 @@
             android:background="#8A640096"
             android:onClick="openHandlingFeverWebsite"
             android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:text="@string/handking_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/background_light" />
     </LinearLayout>
 
+
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5A6DD5"
+        android:onClick="setReminder"
+        android:text="@string/set_reminder"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

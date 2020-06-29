@@ -29,4 +29,6 @@
         The core body temperature of an individual tends to have the lowest value in the second half of the sleep cycle;
         the lowest point, called the nadir, is one of the primary markers for circadian rhythms. The body temperature also changes when a person is hungry, sleepy, sick, or cold.
 </string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="todo">ToDo</string>
 </resources>
