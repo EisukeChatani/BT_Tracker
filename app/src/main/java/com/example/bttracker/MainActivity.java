@@ -35,4 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(tolink);
     }
+
+    public void setReminder(View view) {
+    }
 }
