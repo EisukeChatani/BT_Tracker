@@ -31,4 +31,5 @@
 </string>
     <string name="set_reminder">Set Reminder</string>
     <string name="todo">ToDo</string>
+    <string name="save">Save</string>
 </resources>
